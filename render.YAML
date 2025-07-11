@@ -1,0 +1,6 @@
+services:
+  - type: static
+    name: my-react-app
+    envVars:
+      - key: VITE_API_URL
+        value: https://fastapi-app.onrender.com
